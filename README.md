@@ -10,6 +10,7 @@ While entering interest make sure to add comma.
 
 # Usage 
 $ python CS.Omegle.Bot.py
+
 Enter the interests Example. friends,girls,fag, >> girls,friends,love,justin bieber 
 
 Enter your first message (1/4) >> Hi... 
