@@ -10,16 +10,6 @@ While entering interest make sure to add comma.
 
 # Usage 
 $ python CS.Omegle.Bot.py
-                  ---------------------------------------------
-                  | CyberSucks Omegle Spam Bot                |
-                  | Coded by D@rk TruTH                       |
-                  | Version : 1                               |
-                  | CyberSucks.TK                             |
-                  | Twitter @darktruth190                     |
-                  | Facebook: Fb.me/CyberSec007               |
-                  ---------------------------------------------
-
-
 Enter the interests Example. friends,girls,fag, >> girls,friends,love,justin bieber
 Enter your first message (1/4) >> Hi...
 Enter your second message (2/4) >> You are a FAG
