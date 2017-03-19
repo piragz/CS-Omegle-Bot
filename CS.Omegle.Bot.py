@@ -26,7 +26,7 @@ msg1 = raw_input("Enter your first message (1/4) >> ")
 msg2 = raw_input("Enter your second message (2/4) >> ")
 msg3 = raw_input("Enter your third message (3/4) >> ")
 msg4 = raw_input("Enter your fourth message (4/4) >> ")
-p = raw_input("Enter y to use proxy >> ")
+p = raw_input("Enter y to use proxy and n to not use proxy >> ")
 if p == "y":
 	prox = raw_input("Enter proxy in format of ip:port >> ")
 	display = Display(visible=1, size=(800, 600))
