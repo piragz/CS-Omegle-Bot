@@ -21,6 +21,7 @@ Enter your third message (3/4) >> You Look stupid
 
 Enter your fourth message (4/4) >> Go away 
 
+Enter y to use proxy and n to not use proxy >> n
 
 
 # Bugs
