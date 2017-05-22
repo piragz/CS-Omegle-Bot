@@ -5,10 +5,8 @@ from selenium.common.exceptions import UnexpectedAlertPresentException
 import time,os
 
 def space(j):
-	i = 0
-	while i<=j:
-		print " ",
-		i+=1
+	print (' ' * j)
+
 		
 os.system('cls' if os.name == 'nt' else 'clear')
 space(8);print "---------------------------------------------"
