@@ -30,9 +30,9 @@ if p == "y":
 	display = Display(visible=1, size=(800, 600))
 	display.start()
 	PROXY = prox
-	chrome_options = webdriver.ChromeOptions()
-	chrome_options.add_argument('--proxy-server=socks5://' + PROXY)
-	driver = webdriver.Chrome(chrome_options=chrome_options)
+	firefox_options = webdriver.FirefoxOptions()
+	firefox_options.add_argument('--proxy-server=socks5://' + PROXY)
+	driver = webdriver.Firefox(firefox_options=firefox_options)
 	driver.get('http://www.omegle.com')
 	interest1 = driver.find_element_by_xpath('//input[@class="newtopicinput"]')
 	interest1.send_keys(interest)
@@ -105,7 +105,7 @@ if p == "y":
 elif p == "n":
 	display = Display(visible=1, size=(800, 600))
 	display.start()
-	driver = webdriver.Chrome()
+	driver = webdriver.Firefox()
 	driver.get('http://www.omegle.com')
 	interest1 = driver.find_element_by_xpath('//input[@class="newtopicinput"]')
 	interest1.send_keys(interest)
